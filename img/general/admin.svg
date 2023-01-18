@@ -1,1 +1,15 @@
-<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="11.4" stroke="#681BF2" stroke-width="1.2"/><circle cx="12.237" cy="8.549" stroke="url(#a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" r="2.986"/><path clip-rule="evenodd" d="M7.5 15.688c0-.21.046-.417.137-.606.286-.572 1.093-.875 1.762-1.013a10.49 10.49 0 0 1 1.465-.206 15.67 15.67 0 0 1 2.74 0c.493.035.982.104 1.465.207.669.137 1.476.411 1.762 1.012.183.386.183.833 0 1.219-.286.6-1.093.875-1.762 1.007a9.83 9.83 0 0 1-1.465.211c-.742.063-1.487.075-2.231.035-.172 0-.337 0-.51-.035a9.636 9.636 0 0 1-1.458-.211c-.675-.132-1.476-.407-1.768-1.007a1.44 1.44 0 0 1-.137-.612Z" stroke="url(#b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="a" x1="12.237" y1="5.563" x2="12.237" y2="11.535" gradientUnits="userSpaceOnUse"><stop stop-color="#BB21E6"/><stop offset="1" stop-color="#661BF2" stop-opacity=".83"/></linearGradient><linearGradient id="b" x1="12.234" y1="13.803" x2="12.234" y2="17.577" gradientUnits="userSpaceOnUse"><stop stop-color="#BB21E6"/><stop offset="1" stop-color="#661BF2" stop-opacity=".83"/></linearGradient></defs></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="11.4" stroke="#681BF2" stroke-width="1.2"/>
+<ellipse cx="12.2368" cy="8.54877" rx="2.98627" ry="2.98627" stroke="url(#paint0_linear_918_190)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.50001 15.6885C7.49921 15.4785 7.54616 15.2712 7.63731 15.0821C7.92335 14.51 8.72999 14.2068 9.39932 14.0695C9.88205 13.9665 10.3714 13.8976 10.8639 13.8635C11.7755 13.7834 12.6925 13.7834 13.6041 13.8635C14.0965 13.898 14.5859 13.9669 15.0687 14.0695C15.738 14.2068 16.5446 14.4814 16.8307 15.0821C17.014 15.4676 17.014 15.9151 16.8307 16.3006C16.5446 16.9013 15.738 17.1759 15.0687 17.3075C14.5865 17.4147 14.0969 17.4855 13.6041 17.5191C12.8621 17.582 12.1166 17.5935 11.373 17.5535C11.2014 17.5535 11.0355 17.5535 10.8639 17.5191C10.3729 17.4859 9.8852 17.4152 9.40504 17.3075C8.72999 17.1759 7.92907 16.9013 7.63731 16.3006C7.54662 16.1093 7.49972 15.9002 7.50001 15.6885Z" stroke="url(#paint1_linear_918_190)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_918_190" x1="12.2368" y1="5.5625" x2="12.2368" y2="11.535" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BB21E6"/>
+<stop offset="1" stop-color="#661BF2" stop-opacity="0.83"/>
+</linearGradient>
+<linearGradient id="paint1_linear_918_190" x1="12.2341" y1="13.8035" x2="12.2341" y2="17.5768" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BB21E6"/>
+<stop offset="1" stop-color="#661BF2" stop-opacity="0.83"/>
+</linearGradient>
+</defs>
+</svg>

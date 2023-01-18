@@ -1,1 +1,133 @@
-.banner{padding:19.7rem 0 12.6rem;max-width:144rem;margin:0 auto;overflow:hidden}.banner__title{max-width:43rem}.banner__container{overflow:visible}.banner__content{width:50rem;max-width:100%}.banner__content p{margin-top:1.2rem}.banner__bttns{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:2.4rem;margin-top:4rem}.banner__stats{margin-top:75px}.banner__img{position:absolute;display:none;-webkit-box-shadow:10px 4px 52px -9 px rgba(0,0,0,.47);box-shadow:10px 4px 52px -9 px rgba(0,0,0,.47);display:none}.banner__img.img-1{top:-3rem;left:50%}.banner__img.img-2{top:-5rem;left:65%}.banner__img.img-3{right:2rem;top:7rem;z-index:2}.banner__img.img-4{top:44rem;right:-1rem}.banner__img.img-5{right:16rem;z-index:1;top:17rem}.banner__img-mobile{display:none}.banner__img-mobile img{max-width:100%;height:auto;-o-object-fit:cover;object-fit:cover}@media only screen and (min-width:1200px){.banner__img{display:block}}@media (max-width:1260px){.banner__stats{margin-top:calc(20px + 55 * ((100vw - 375px)/ 885))}}@media only screen and (max-width:1200px){.banner{padding:8rem 0 5rem}.banner__title{max-width:100%}.banner__container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;gap:4rem;text-align:center}.banner__content{margin:0 auto;width:100%;padding:0 1.6rem}.banner__bttns{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.banner__stats{width:50rem;max-width:100%;margin:5rem auto 0}.banner__img-mobile{display:block}}@media only screen and (max-width:876px){.banner__content p{max-width:60rem;margin:1.2rem auto 0}.banner__bttns{margin-top:1.2rem}}@media only screen and (max-width:576px){.banner__bttns{margin-top:2rem;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}}
+.banner {
+  padding: 19.7rem 0 12.6rem;
+  max-width: 144rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media only screen and (max-width: 1200px) {
+  .banner {
+    padding: 8rem 0 5rem;
+  }
+}
+.banner__title {
+  max-width: 43rem;
+}
+@media only screen and (max-width: 1200px) {
+  .banner__title {
+    max-width: 100%;
+  }
+}
+.banner__container {
+  overflow: visible;
+}
+@media only screen and (max-width: 1200px) {
+  .banner__container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 4rem;
+    text-align: center;
+  }
+}
+.banner__content {
+  width: 50rem;
+  max-width: 100%;
+}
+.banner__content p {
+  margin-top: 1.2rem;
+}
+@media only screen and (max-width: 876px) {
+  .banner__content p {
+    max-width: 60rem;
+    margin: 1.2rem auto 0;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .banner__content {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 1.6rem;
+  }
+}
+.banner__bttns {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  margin-top: 4rem;
+}
+@media only screen and (max-width: 1200px) {
+  .banner__bttns {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 876px) {
+  .banner__bttns {
+    margin-top: 1.2rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .banner__bttns {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+}
+.banner__stats {
+  margin-top: 75px;
+}
+@media (max-width: 1260px) {
+  .banner__stats {
+    margin-top: calc(20px + 55 * ((100vw - 375px) / 885));
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .banner__stats {
+    width: 50rem;
+    max-width: 100%;
+    margin: 5rem auto 0;
+  }
+}
+.banner__img {
+  position: absolute;
+  display: none;
+  box-shadow: 10px 4px 52px -9 px rgba(0, 0, 0, 0.47);
+  display: none;
+}
+.banner__img.img-1 {
+  top: -3rem;
+  left: 50%;
+}
+.banner__img.img-2 {
+  top: -5rem;
+  left: 65%;
+}
+.banner__img.img-3 {
+  right: 2rem;
+  top: 7rem;
+  z-index: 2;
+}
+.banner__img.img-4 {
+  top: 44rem;
+  right: -1rem;
+}
+.banner__img.img-5 {
+  right: 16rem;
+  z-index: 1;
+  top: 17rem;
+}
+@media only screen and (min-width: 1200px) {
+  .banner__img {
+    display: block;
+  }
+}
+.banner__img-mobile {
+  display: none;
+}
+@media only screen and (max-width: 1200px) {
+  .banner__img-mobile {
+    display: block;
+  }
+}
+.banner__img-mobile img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
